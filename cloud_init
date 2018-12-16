@@ -13,7 +13,7 @@ sudo mkdir -p /var/lib/nyzo/production
 sudo cp trusted_entry_points /var/lib/nyzo/production
 sudo cp nyzoVerifier.conf /etc/supervisor/conf.d
 #########################
-sudo bash -c 'echo "smores1" > /var/lib/nyzo/production/nickname'
+sudo bash -c 'echo "mala1" > /var/lib/nyzo/production/nickname'
 #########################
 echo "@reboot sudo supervisorctl reload" >> mycron
 crontab mycron
